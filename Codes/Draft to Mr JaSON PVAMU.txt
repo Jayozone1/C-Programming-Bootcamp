@@ -1,0 +1,65 @@
+Good Morning Sir
+I am Dara Obademi, I got your number from Sir Kombo
+I recently got admission for a masters program in Electrical Engineering for fall of 2024 at PVAMU,
+I was introduced to sir Kombo by one of my elder brother.
+The main reason for reaching out is to be able to get a Research Assistant role before resumption in Fall,
+I discussed with Sir Kombo on some of the steps I have taken to get a placement which includes reaching out to 3 profs at
+two centers that are affliated with Electrical Engineering department,
+I sent mails to Prof Lijun Quian and Prof Suxia Cui of CREDIT and also to Prof Shuza Binzaid of SMART,
+but none of them responded yet.
+Sir Kombo told me yesterday that you advised that I seek Research Assistantship in another department aside Electrical Engineering.
+I am new to PVAMU and how research assistantship work, I would appreciate if you could advise me on where and how to seek Research Assitantship in else where.
+I will also appreciate your guidance sir, on how things work in the department.
+The Research assistantship will help me a great deal in the aspect of funding my Masters Program, and your advice on electrical department will help
+me navigate the department during the course of my program, as I look forward to resuming this fall
+Thanks a lot for your time Sir, I do really appreciate.
+
+
+switch (Month)
+
+{
+    case 1:
+        printf("January\n");
+        break;
+    case 2:
+        printf("February\n");
+        break;
+    case 3:
+        printf("March\n");
+        break;
+    case 4:
+        printf("April\n");
+        break;
+    case 5:
+        printf("May\n");
+        break;
+    case 6:
+        printf("June\n");
+        break;
+    case 7:
+        printf("July\n");
+        break;
+    case 8:
+        printf("August\n");
+        break;
+    case 9:
+        printf("September\n");
+        break;
+    case 10:
+        printf("October\n");
+        break;
+    case 11:
+        printf("November\n");
+        break;
+    case 12:
+        printf("December\n");
+        break;
+
+
+
+Write  a Program that should receive a chracter from the user.
+The program should print if the character is
+-Lowercase Letter
+-Upppercase Letter
+-Digit
+-Other.

@@ -1,0 +1,115 @@
+Write a program that recieves as input a "valid" grade:
+1. Greater than 0
+2.Less than 100.
+
+The program should print a corresponding message with the grade itself.
+Example: "Thanks! You've inserted 90, which is a legit grade!"
+
+int main {
+
+int grade;
+
+do {
+  printf("Please enter a grade: ");
+  scanf("%d", &grade);
+} while (grade < 0 || grade > 100);
+
+printf("Thanks! You've inserted %d, which is a legit grade!", grade);
+
+}
+
+//1 cent doubles everyday for a month
+//1 million right.
+
+int choose;
+int gift = 1 cent;
+int day =30;
+
+printf("Enter your choice of the 2 options: ");
+sacnf("%d", &choose);
+
+if (choose == 1)
+    printf("You choose to get 1 Million right away"\n);
+else if( choose == 2)
+	for (i = 1; i <= 30; i++)
+	{
+	 gift = gift * 2;
+	 printf("Your total amount after 30 days will %d cents", gift);
+	}
+else
+	printf("Kindly enter a valid for to choose from");
+
+//Write a Program that recieves a "num" from the user.
+//Program should put all the integers from 1 up to "num" and vice-versa.
+
+int num;
+int i;
+
+printf("Enter the desired num: ");
+scanf("%d", &num);
+
+for(i = 1; i<= num; i++)
+{
+	printf("%d", i);
+}
+
+1. Take in the number
+2. each step should be incremented by 1
+
+int i,j,k;
+int blankspaces;
+int n;
+int currentValue = 1;
+
+printf("Insert 'n' (number of rows in pyramid): ");
+scanf("%d", &n);
+
+blankspaces = n-1;
+for(i=1; i<=n; i++)
+{
+	for(k=blankSpaces; k>=1; k--){
+	    printf(" ");
+	}
+
+	for(j=1; j<=i; j++)
+	{
+	   printf("%d ", currentValue);
+	   currentValue+=1;
+	}
+
+	printf("\n")
+	blankspaces--
+
+int num;
+int pnum;
+
+
+Receiver a num from the user.
+ printf("Enter a num from the User : "\n);
+ scanf(""%d", &num);
+
+Check if the number can be divided by 3 and 5.
+ if (num % 3 == 0 & num % 5 == 0)
+	pnum == num;
+
+ for(i=1; i<= num; i++)
+    print("%d", i + num);
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  

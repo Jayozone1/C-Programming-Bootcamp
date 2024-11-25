@@ -1,0 +1,124 @@
+1. What is the expected result of the following code execution?
+
+#include<stdio.h>
+int main()
+{
+printf("%x", 65);
+return 0;
+}
+
+Answer: 41
+
+2. What is the expected result of the following code execution?
+
+#include<stdio.h>
+int main()
+{
+printf("%x", 123);
+return 0;
+}
+
+Answer: 7B
+
+3.What is the expected result of the following code execution?
+#include<stdio.h>
+int main()
+{
+  printf("%d",0x1A2);
+
+  return 0;
+}
+
+Answer: 418
+
+4.Write a program that reads from the user 1 character representing a "1-digit" value in Hexadecimal Format. The program should print the corresponding BINARY representation of the input.
+For example:
+- '4' --> "0100".
+- '7' --> "0111".
+- 'A' --> "1010".
+
+The input values can be 0,1,2,3,...,A,B,C,D,E,F.
+
+#include <stdio.h>
+#define MAX 1000
+
+int main() {
+    // Write C code here
+    
+    char binarynum[MAX], Mychar[MAX];
+    long int i = 0;
+    
+    
+    printf("Enter a character :");
+    scanf("%c", &Mychar);
+    
+    printf("The value of the character in binary is : ", Mychar);
+    
+    while (Mychar[i])
+    {
+        switch(Mychar[i])
+    	{
+    	 case '0':
+    	    printf("0000");
+    	    break;
+    	 case '1':
+    	    printf("0001");
+    	    break;
+    	case '2':
+    	    printf("0010");
+    	    break;
+    	case '3':
+    	    printf("0011");
+    	    break;
+    	case '4':
+    	    printf("0100");
+    	    break;
+    	case '5':
+    	    printf("0101");
+    	    break;
+    	case '6':
+    	    printf("0110");
+    	    break;
+    	case '7':
+    	    printf("0111");
+    	    break;
+    	case '8' :
+    	    printf("1000");
+    	    break;
+    	case '9':
+    	    printf("1001");
+    	    break;
+    	case 'A':
+    	    printf("1010");
+    	    break;
+    	case 'B':
+    	    printf("1011");
+    	    break;
+    	case 'C':
+    	    printf("1100");
+    	    break;
+    	case 'D':
+    	    printf("1101");
+    	    break;
+    	case 'E':
+    	    printf("1110");
+    	    break;
+    	case 'F':
+    	    printf("1111");
+    	    break;
+    	default:
+                printf("\nInvalid character %c ", Mychar);
+    	}
+	    i++;
+        
+    }
+    
+    return 0;
+}
+
+
+
+
+
+
+
